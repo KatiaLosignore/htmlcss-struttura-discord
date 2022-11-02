@@ -1,0 +1,54 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   
+/* Generics */
+nav {
+    margin: 0 auto;
+    min-height: 80px;
+    background-color: rgb(173,216,230);
+}
+    
+  
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    list-style-type: none;
+    background-color: rgb(218,165,32);
+}
+    
+
+    
+
+a {
+ text-decoration: none;
+ color: black;
+}
+
+.logo, .login {
+    flex-basis: 10%;
+    height: 30px;
+    border: 1px dashed black;
+    padding: 5px;
+}
+    
+   
+.link {
+    flex-basis: 30%;
+    height: 30px;
+    border: 1px dashed black;
+    padding: 5px;
+    text-align: center;
+}
+    
+   
+   
+   
+/* Utils */
