@@ -11,7 +11,7 @@
 nav {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     min-height: 60px;
     background-color: rgb(173,216,230);
 }
@@ -115,5 +115,32 @@ a {
 }
 
 main {
-    border-color: 1px solid white;
+    border-bottom: 1px solid white;
 }
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    min-height: 60px;
+}
+
+.flex-container-footer {
+    min-height: 40px;
+    background-color: rgb(127,255,212);
+    width: 48%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+button {
+    background-color: pink;
+    padding: 1px;
+}
+    
+    
+
+    
+    
